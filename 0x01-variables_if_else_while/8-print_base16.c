@@ -1,5 +1,5 @@
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - main block
  * Description: numbers of base 16 followed by a new line
@@ -9,7 +9,7 @@ int main(void)
 {
 	char c = '0';
 
-	while (c <= '15')
+	while (c <= '9')
 	{
 		putchar(c);
 		c++;
