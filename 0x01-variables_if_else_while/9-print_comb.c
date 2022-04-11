@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 /**
  * main - main block
@@ -7,7 +8,7 @@
  */
 int main(void)
 {
-	int c = '48';
+	char c = '48';
 
 	while (c < 57)
 	{
