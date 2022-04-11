@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdlib.h>
+#include <stdio.h>
 /**
  * main - main block
  * Description: prints single digit number of base 10
@@ -18,6 +18,4 @@ int main(void)
 
 	putchar('\n');
 	return (0);
-
 }
-
