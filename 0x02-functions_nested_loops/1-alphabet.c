@@ -5,7 +5,7 @@
  * Description: print alphabet in lowercase followed by a new line
  * Return: Always 0
  */
-int main (void)
+int main(void)
 {
 	char c = 'a';
 
@@ -16,7 +16,4 @@ int main (void)
 	}
 
 	putchar('\n');
-	return (0);
 }
-	
-
