@@ -12,6 +12,7 @@ int main(void)
 
 	while (c < 57)
 	{
+		putchar(c);
 		putchar(',');
 		putchar(' ');
 		c++;
@@ -19,3 +20,4 @@ int main(void)
 	putchar('\n');
 	return(0);
 }
+
