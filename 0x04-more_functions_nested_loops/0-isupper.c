@@ -2,7 +2,7 @@
 
 /**
  * _isupper - check for upper case letter
- * @a: check for upper case letter
+ * @c: check for upper case letter
  * Return: 0 or 1
  */
 
