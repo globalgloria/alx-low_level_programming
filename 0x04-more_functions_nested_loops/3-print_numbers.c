@@ -4,7 +4,6 @@
  * print_numbers - prints numbers 0 to 9
  * Return: The printed numbers (0-9)
  */
-
 void print_numbers(void)
 {
 	int i = 48;
@@ -15,4 +14,10 @@ void print_numbers(void)
 		i++;
 	}
 	_putchar('\n');
+}
+
+int main(void)
+{
+	print_numbers();
+	return (0);
 }
