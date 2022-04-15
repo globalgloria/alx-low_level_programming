@@ -1,4 +1,5 @@
-#include "main.h"
+#include "holberton.h"
+
 /**
  * print_numbers - prints numbers 0 to 9
  * Return: 0
