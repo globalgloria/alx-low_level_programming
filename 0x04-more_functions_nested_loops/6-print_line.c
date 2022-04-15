@@ -2,6 +2,7 @@
 
 /**
  * print_line - print a line
+ * @n: number of _ to be printed
  * Return: Always 0
  */
 
