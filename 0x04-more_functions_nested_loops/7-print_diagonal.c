@@ -2,7 +2,7 @@
 
 /**
  * print_diagonal: draws diagonal line on the terminal
- * @n: diagonal line
+ * @n:number of \ to be printed
  * Return: void
  */
 
