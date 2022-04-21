@@ -1,4 +1,4 @@
-#|include "main.h"
+#include "main.h"
 
 /**
  * print_rev - prints a string, in reverse, followed by a new line
@@ -16,6 +16,6 @@ void print_rev(char *s)
 	}
 
 	for (count--; count >= 0; count--)
-		_putchar(s[count]);
+		putchar(s[count]);
 	_putchar('\n');
-}
+u}
