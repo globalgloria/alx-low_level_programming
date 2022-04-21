@@ -25,3 +25,4 @@ void rev_string(char *s)
 		s[i] = s[len];
 		s[len1--] = tmp;
 	}
+}
