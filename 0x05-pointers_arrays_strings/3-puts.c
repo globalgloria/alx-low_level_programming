@@ -1,17 +1,18 @@
 #include "main.h"
 
 /**
- * print_numbers - prints numbers
- *  Return:0
+ *_puts - prints a string to stdout
+ * @str: the input string parameter
+ *
  */
-void print_numbers(void)
+void _puts(char *str)
 {
-	char n = 0;
+	int j = 0;
 
-	while (n <= 9)
+	while (str[j] != '\0')
 	{
-		_putchar('0' + n);
-		n++;
+		_putchar(str[j]);
+		j++;
 	}
 	_putchar('\n');
 }
