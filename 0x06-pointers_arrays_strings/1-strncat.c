@@ -7,7 +7,6 @@
  * @n: number of byte of string to concatenate
  * Return: a pointer to the resulting string dest
  */
-
 char *strncat(char *dest, char *src, int n);
 {
 	int i, j;
