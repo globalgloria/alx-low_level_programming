@@ -2,10 +2,11 @@
 
 /**
  * _strncat - concatenates n bytes from a string to another
- * @dest - destination string /  string to append
- * @src - source string / string to add
+ * @dest: destination string
+ * @src: source string
  * @n: number of byte of string to concatenate
- * Return: a pointer to the resulting string dest
+ *
+ * Return: a pointer to the resulting string
  */
 char *strncat(char *dest, char *src, int n);
 {
